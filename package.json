@@ -1,0 +1,24 @@
+{
+  "name": "real-time-data-classification",
+  "version": "1.0.0",
+  "description": "Real-time Data Classification API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.0",
+    "fastify-jwt": "^4.2.0",
+    "fastify-mongodb": "^4.2.0",
+    "fastify-plugin": "^4.5.1",
+    "fastify-websocket": "^4.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.3"
+  },
+  "keywords": []
+}
